@@ -12,6 +12,7 @@ body {
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
 }
+
 /* ここから */
 header {
   height:50px;
@@ -43,6 +44,7 @@ header ul:after {
   display: block;
   clear: both;
 }
+
 /* ここまでがheader部分の実装 */
 .main-header{
   height:150px;
@@ -73,7 +75,6 @@ header ul:after {
 .function h1{
   font-size:1.5rem;
   padding-top:20px;
-
 }
 .function-images {
     display: flex;
@@ -81,12 +82,20 @@ header ul:after {
     align-items: center;
     height: 120px;
 }
-.function-image {
+.function-image1 {
+  padding:0 30px;
+  float:left;
+  font-size:0.8rem;
+}
+.function-image2 {
   padding:0 20px;
   float:left;
   font-size:0.8rem;
 }
-.function-image img{
+.function-image2 img{
+  width:50px;
+}
+.function-image1 img{
   width:50px;
 }
 
@@ -94,6 +103,7 @@ header ul:after {
 footer{
 height:70px;
 background-color:#283A4B;
+position:relative;
 }
 footer p{
   color:#fff;
@@ -101,11 +111,7 @@ footer p{
   margin:0;
   padding:0;
 }
-.hooter{
-  position:relative;
-}
-
-.hooter2{
+.hooter_text{
   position: absolute;
   top: 0;
   right: 0;
@@ -114,6 +120,5 @@ footer p{
   margin: auto;
   width: 100%;
   height: 40%;
-
 }
   /* footer部分の実装 */
